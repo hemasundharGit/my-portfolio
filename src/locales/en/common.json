@@ -1,0 +1,113 @@
+
+{
+  "Header": {
+    "name": "Hema Sundharam Kolla"
+  },
+  "Nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "projects": "Projects",
+    "certifications": "Certifications",
+    "publications": "Publications",
+    "leadership": "Leadership",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "title": "Hema Sundharam Kolla",
+    "subtitle": "DevOps & Full Stack Engineer | B.Tech CSE '26",
+    "aboutBtn": "About Me",
+    "resumeBtn": "Resume"
+  },
+  "About": {
+    "title": "About Me",
+    "p1": "As an engineer, I am passionate about solving large-scale problems through principled engineering and building full-stack systems that scale to millions. My philosophy is rooted in creating robust, efficient, and maintainable software. I thrive in agile team environments, contributing to high-performance systems and handling petabyte-scale data.",
+    "p2": "I am currently pursuing my B.Tech in Computer Science and Engineering at KL University, where I maintain a CGPA of 9.23/10. My academic foundation equips me with strong problem-solving and analytical skills, while my hands-on experiences allow me to bridge theory with practice.",
+    "p3": "Previously, I worked as a DevOps Intern at Next CX, where I gained practical experience in cloud technologies, automation, and deployment pipelines. This role allowed me to strengthen my understanding of CI/CD, containerization, and scalable infrastructure management.",
+    "p4": "Beyond my technical journey, I am also a 3× National Powerlifting Gold Medalist. The resilience and discipline I’ve developed through powerlifting directly translate into my professional life—teaching me perseverance, focus, and the ability to push beyond limits."
+  },
+  "Skills": {
+    "title": "Technical Skills",
+    "programming": "Programming",
+    "programming_skills": "Java, Python, C/C++, JavaScript (ES6+), Bash, SQL",
+    "core_cs": "Core CS",
+    "core_cs_skills": "Data Structures, Algorithms, OOP, Operating Systems, Networking",
+    "development": "Development",
+    "development_skills": "React.js, Node.js, Express.js, REST APIs, Firebase, AWS CDK",
+    "testing": "Testing & Automation",
+    "testing_skills": "Unit/Functional Testing, Test Strategy Design, Automation Frameworks",
+    "tools": "Tools",
+    "tools_skills": "Git, Bitbucket, Postman, Nagios, Prometheus, Grafana, VSCode, CI/CD Pipelines, AWS CodeBuild, Jenkins, Azure DevOps",
+    "cloud": "Cloud",
+    "cloud_skills": "AWS, Azure, GCP"
+  },
+  "Experience": {
+    "title": "Work Experience",
+    "internship_title": "DevOps Intern",
+    "company_name": "Next CX.ai",
+    "duration": "July 2025 - August 2025",
+    "desc_1": "Automated AWS infrastructure deployments using Infrastructure as Code (IaC) principles and optimized CI/CD workflows, reducing deployment time by 30%.",
+    "desc_2": "Developed and maintained Bash scripts for system monitoring, environment setup, and various automation tasks.",
+    "desc_3": "Implemented robust CI/CD solutions, ensuring seamless and reliable software delivery cycles."
+  },
+  "Projects": {
+    "title": "Selected Projects",
+    "p1_year": "2025",
+    "p1_role": "Full Stack Developer",
+    "p1_title": "Kolla Agencies Business Monitor",
+    "p1_desc": "A full-stack application for billing, payment reminders, and business analytics to streamline operations for Kolla Agencies.",
+    "p1_stack": "React, Firebase, Node.js, Analytics",
+    "p2_year": "2025",
+    "p2_role": "Frontend Developer",
+    "p2_title": "VR Chess Academy Website",
+    "p2_desc": "An SEO-optimized, responsive website for a virtual reality chess academy to enhance online presence and user engagement.",
+    "p2_stack": "Next.js, Tailwind CSS, SEO",
+    "p3_year": "2024",
+    "p3_role": "Full Stack Developer",
+    "p3_title": "Career Mentorship Platform",
+    "p3_desc": "A full-stack e-learning platform connecting students with career mentors, featuring real-time chat and resource sharing.",
+    "p3_stack": "React, FastAPI, Firebase, Python",
+    "p4_year": "2023",
+    "p4_role": "Developer",
+    "p4_title": "Attendance Tracker Dashboard",
+    "p4_desc": "An admin panel with a real-time database to track and manage student attendance efficiently.",
+    "p4_stack": "Firebase, JavaScript, HTML/CSS",
+    "codeBtn": "Code",
+    "liveBtn": "Live Demo"
+  },
+  "Certifications": {
+    "title": "Certifications & Training",
+    "c1_name": "AWS Certified Cloud Practitioner",
+    "c1_year": "2024",
+    "c2_name": "Red Hat Certified Enterprise Application Developer",
+    "c2_year": "2024",
+    "c3_name": "Salesforce Certified AI Associate",
+    "c3_year": "",
+    "viewBtn": "View Certificate"
+  },
+  "Publications": {
+    "title": "Publications & Blogs",
+    "pub1_type": "Research Paper",
+    "pub1_title": "Intelligent Monitor: Enhancing DevOps with Advanced Observability and Blockchain for Secure, Transparent Development",
+    "pub1_platform": "Research Paper",
+    "pub2_type": "Technical Blogs",
+    "pub2_title": "Technical Blogs on AWS, Azure, DevOps",
+    "pub2_platform": "Hashnode",
+    "readMoreBtn": "Read More"
+  },
+  "Leadership": {
+    "title": "Leadership & Impact",
+    "item1_role": "3× National Powerlifting Gold Medalist",
+    "item1_desc": "Demonstrated resilience, discipline, and commitment through competitive powerlifting.",
+    "item2_role": "Peer Educator",
+    "item2_desc": "Mentored peers in complex topics like algorithms, system design, cloud, and DevOps, fostering a collaborative learning environment."
+  },
+  "Contact": {
+    "title": "Contact Me",
+    "desc": "I'm always open to discussing new projects, creative ideas, freelancing opportunities, or opportunities to be part of an amazing team."
+  },
+  "Footer": {
+    "copyright": "© {year} Hema Sundharam Kolla. All rights reserved."
+  }
+}

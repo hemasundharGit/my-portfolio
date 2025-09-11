@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  :root {
+    --background: 140 18% 95%;
+    --foreground: 180 15% 27%;
+    --card: 140 18% 95%;
+    --card-foreground: 180 15% 27%;
+    --popover: 140 18% 95%;
+    --popover-foreground: 180 15% 27%;
+    --primary: 141 15% 64%;
+    --primary-foreground: 180 15% 15%;
+    --secondary: 140 10% 90%;
+    --secondary-foreground: 180 15% 27%;
+    --muted: 140 10% 90%;
+    --muted-foreground: 180 10% 50%;
+    --accent: 180 15% 60%;
+    --accent-foreground: 180 15% 15%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 140 10% 88%;
+    --input: 140 10% 88%;
+    --ring: 180 15% 60%;
+    --radius: 0.5rem;
+  }
+ 
+  .dark {
+    --background: 180 10% 10%;
+    --foreground: 140 10% 80%;
+    --card: 180 10% 10%;
+    --card-foreground: 140 10% 80%;
+    --popover: 180 10% 10%;
+    --popover-foreground: 140 10% 80%;
+    --primary: 141 15% 64%;
+    --primary-foreground: 180 15% 15%;
+    --secondary: 180 10% 15%;
+    --secondary-foreground: 140 10% 80%;
+    --muted: 180 10% 15%;
+    --muted-foreground: 140 10% 60%;
+    --accent: 180 15% 60%;
+    --accent-foreground: 180 15% 15%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 180 10% 15%;
+    --input: 180 10% 15%;
+    --ring: 180 15% 60%;
+  }
+}
+ 
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer utilities {
+  .fade-in-on-scroll {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+
+  .is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes pulse-glow {
+  0% {
+    box-shadow: 0 0 0 0 hsl(var(--accent) / 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 10px hsl(var(--accent) / 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 hsl(var(--accent) / 0);
+  }
+}
